@@ -28,7 +28,7 @@ export default class App extends Component {
         <div className="App">
           <Router>
             <NavigationBar />
-            <Container maxWidth="md" style={{ height: '100vh', paddingTop: '64px'}}>
+            <Container maxWidth="lg" style={{ height: '100vh', paddingTop: '64px'}}>
               <Switch>
                 <Route path="/about-me">
                   <AboutMe />
