@@ -65,11 +65,14 @@ export default class AboutMe extends Component {
           <Grid item xs={12} sm={8}>
             <Card>
               <CardContent>
-                Currently a Full-stack developer at Trelora Real Estate.
-
-                With {years} year{years > 1 ? 's' : ''} {monthString} of professional software experience,
-                
-
+                Motivated and ethusiastic full-stack developer 
+                with {years} year{years > 1 ? 's' : ''} {monthString} of 
+                professional software experience. Recently led an 
+                effort to resolve two years of deferred maintenance in
+                my company's React application, by auditing dependencies, 
+                planning and implementing a new architecture, and 
+                introducting frontend testing libraries. Passionate about
+                building expertise in frontend software development.
               </CardContent>
             </Card>
           </Grid>
